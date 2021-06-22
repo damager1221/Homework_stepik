@@ -7,7 +7,33 @@ body {
 a {
     color: #5a309e;
 }
-
+figure>img {
+    width: 130%;
+}
 figure {
+    width: 9em;
     float: right;
+
+}
+figcaption {
+    font-style: italic;
+}
+table {
+    width: 100%; /* Ширина таблицы */
+    border: 4px double black; /* Рамка вокруг таблицы */
+    border-collapse: collapse;
+}
+th {
+    text-align: left;
+    background: #ccc;
+    border: 1px solid black; /* Граница вокруг ячеек */
+}
+td {
+    border: 1px solid black; /* Граница вокруг ячеек */
+}
+h1, h2, h3 {
+    margin-top: 1.5em;
+}
+h1 {
+    font-size: 32px;
 }
